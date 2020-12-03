@@ -110,13 +110,13 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #e44c65;
+		color: #ffffff;
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #e44c65 !important;
+			color: #ffffff !important;
+			font-weight: bold;
 			border-bottom-color: transparent;
 		}
 
@@ -695,7 +695,7 @@ input, select, textarea {
 		}
 
 		.row.gtr-uniform > * > :last-child {
-			margin-bottom: 0;
+			margin-bottom: 0; 
 		}
 
 		.row.aln-left {
@@ -888,6 +888,7 @@ input, select, textarea {
 
 				.row.gtr-uniform > * {
 					padding-top: 2.5em;
+					margin: auto;
 				}
 
 		.row.gtr-150 {
@@ -1911,6 +1912,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				justify-content: center;
 			}
 
 				.row > * {
@@ -2182,7 +2184,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 0 0;
+		margin: 0 0 4em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -2410,6 +2412,7 @@ input, select, textarea {
 			border: 0;
 			border-radius: 0;
 			padding: 0;
+			
 		}
 
 /* Icon */
@@ -2418,6 +2421,7 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		color: #e44c65;
 	}
 
 		.icon:before {
@@ -3207,6 +3211,7 @@ input, select, textarea {
 		height: 100vh;
 		overflow: hidden;
 		position: relative;
+		margin: auto;
 	}
 
 		.wrapper.style2 {
