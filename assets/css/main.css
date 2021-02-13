@@ -3203,6 +3203,9 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
+		display: -webkit-flex;
+		display: flex;
+		align-items: center;
 		padding: 2em 0 4em 0;
 		background-attachment: fixed;
 		background-position: center center;
