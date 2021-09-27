@@ -3211,7 +3211,7 @@ input, select, textarea {
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-		height: 100vh;
+		min-height: 100vh;
 		width: 100vw;
 		overflow: hidden;
 		position: relative;
@@ -3840,6 +3840,7 @@ input, select, textarea {
 
 			h3 {
 				font-size: 1.2em;
+				
 			}
 
 			h4 {
